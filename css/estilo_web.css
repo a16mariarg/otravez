@@ -1,0 +1,409 @@
+/*Estilos generales de la página*/
+body{
+	background-color: #1ABC9C;
+}
+
+/*cuerpo*/
+header{
+	background-color: #a6cff5;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	font-family: Kristen ITC;
+	font-size: 4em;
+	text-align: left;
+	margin-top: -20px;
+	color: #000080;
+	}
+	
+
+/*estilos logo*/	
+.logo{
+	width: 20%;
+	float: left;
+			
+}
+	
+/*afecta a los elementos de párrafo que contengan esta clase*/
+p.estilo_parf{
+	font-size: 0.5em;
+	font-family: Roboto;
+	float: right;
+	margin-right: 40px;
+	margin-top: 5px;
+	
+}
+
+/*Definiendo la clase enlaces. Se corresponde con las redes sociales*/
+.redes{
+	width: 4%;
+	float: right;
+	display: inline-block;
+	/*Márgenes Arriba | Derecha | Izquierda */
+	margin: 2px 10px 10px;
+	}
+
+
+.fondo{
+	background-color: #AED6F1;
+	
+}
+/*define como se comporta la imagen del artÃ­culo*/
+article img{
+	float: right;
+	margin-top: 10px;
+	width: 400px;
+	
+	
+	
+}
+/*Estilos menú lateral*/
+nav{
+	background-color: #AED6F1;
+	width: 25%;
+	height: auto;
+	position: absolute;
+	float: left;
+	margin-top: 400px;
+	font-family: Candara;
+	font-size: 0.2em;
+	border-radius: 4px;
+	overflow: hidden;
+	text-align: center;
+		
+	
+}
+
+/*tamaño de las imágenes del menú*/
+li img{
+	width: 60%;
+}
+
+ul{
+	margin-top: 20px;
+	list-style: none; /*lista sin estilos*/
+
+}
+
+
+ul li{
+	float: left;
+	font-size: 3em;
+	display: block;	 /*para que se comporte como un bloque*/
+	text-align: center;
+	width: 80%;
+	cursor: pointer; /*para que aparezca el cursor*/
+	
+	
+}
+
+/* mediante esta etiqueta se define el borde de abajo*/
+.linea {
+	border-bottom: 2px solid #000080;
+	
+	
+}
+
+/*define el estilo de los enlaces del menú*/
+.linea a{
+	margin-top: 20px;
+	text-align: center;
+	
+}
+
+li a {
+	display: block;
+	padding: 10px;
+	/*text-decoration: none; /*para que aparezca el enlace sin subrayado*/
+	color: #000080;
+	width: 80%;
+	font-size: 2em;
+	font-weight: bold;
+	
+
+}
+
+
+/*define un cambio de color en el enlace cuando se le pasa el ratón por encima*/
+li a:hover{
+	color: #ffffff;
+}
+
+/*estilos vídeo*/
+video{
+	margin-left: 300px;
+	margin-top: 30px;
+	margin: 0 auto;
+}
+
+
+/*Estilos del centro de la página*/
+section{
+	width: 100%;	
+	height: auto;
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 430px;
+	/*background-color: yellow;*/
+
+
+}	
+
+section>h1{
+	color: #00008F;
+	font-weight: bold;
+	text-align: left;
+	font-size: 2em;
+}
+
+
+/*definiendo estilos generales de los artículos*/
+article{
+	width: 60%;
+	height: auto;
+	/* Márgenes Arriba | Izquierda */
+	margin: 50px 40px;
+	/*background-color:red;*/
+	
+	
+}
+
+/*definiendo el estilo del artículo que va acompañando la imagen de masa madre*/
+.estilo_art1>p { 
+			line-height: 1.4em; /*interlineado*/
+			font-size: 0.8em;
+			text-align: left;
+			color: #000000;
+			font-family: Roboto;
+			margin-left: 20px;
+}
+
+
+/*define como se comporta la imagen del artÃ­culo
+.img_parrafo{
+	float: right;
+	margin-top: 10px;
+	width: 400px;
+	
+	
+	
+}*/
+
+
+/*Define el color de fondo del encabezado de los vídeos*/
+.estilo_art h2{
+	color: #000000;
+	position: relative;
+	background-color: #E3A8A1;
+	
+}
+
+/*etiqueta de vídeo. Define el ancho*/
+video{
+	width: 360px;
+		
+}
+
+
+/*encabezado de los testimonios de los alumnos*/
+.testimonio{
+	color: #000000;
+	background-color: #B19BC0;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Candara;
+	text-align: center;
+	width: 60%;
+	margin-top: 60px;
+	
+}
+	
+/*estilos de los testimonios de los cocineros*/
+figure {
+	float: right;
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+.testimonio3{
+	float: right;
+	width: 50%;
+	margin: 0 auto;
+
+}
+
+.testimonio2{
+	float: right;
+	width: 50%;
+	margin: 0 auto;
+		
+}
+
+.titulo_testimonio, .titulo_testimonio3{
+	margin-top: 100px;
+	
+}
+
+
+.imagen_test{
+	width: 20%;
+}
+
+.imagen_test3{
+	width: 25%;
+	
+}
+
+figcaption, .texto_testimonio2, .texto_testimonio3{
+	text-align: left;
+}
+
+
+/*Estilos generales del pie de página*/
+footer{
+	background-color: #A6CFF5;
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	margin-top: 2000px;
+
+	}
+	
+	/*párrafo del pie*/
+footer p{
+	font-size: 1em;
+	font-family: Candara;
+	float: left;
+	color: #000080;
+	/* Márgenes Arriba | Izquierda */
+	margin: 80px -250px;
+}
+
+/*Definiendo los encabezados de footer*/
+h2{
+	color: #000080;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: Candara;	
+}
+/*encabezado*/
+.patrocinadores>h2{
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Roboto;
+	margin-top: -40px;
+	margin-left: 10px;
+	
+}
+
+/*Copyright de Entre Pucheros*/
+span.pie{
+	font-size: 1em;
+	margin-top: 80px;
+	color: #000080;
+	float: right;
+	margin-left: 800px;
+	font-family: Candara;
+
+}
+
+/*estilos enlace Mapa web*/
+p.pie_mapa{
+	text-align: left;
+  /* Arriba | Izquierda | Derecha*/
+  margin: 80px 89px;
+  font-family: Candara;
+  color: #000080;
+  text-decoration: underline;
+
+
+  
+}
+
+.pie_mapa>a{
+	  /*text-decoration:none;*/
+	  color: #000080;
+}
+
+.mapa{
+	float: right;
+	margin-top: 7px;
+	margin-right: 20px;
+}
+	
+/*encabezado encima del mapa de localización de la academia*/
+.localizacion{
+  text-align: right;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-top: 5px;
+  margin-right: 5px;
+   	
+}
+
+
+/*dirección de contacto en el pie de página*/
+p.direccion{
+	font-family: Roboto;
+	float: right;
+	margin-top: 300px;
+	margin-left: 90px;
+	margin-right: -400px;
+	font-size: 1em;
+	color: #000080;
+	
+}
+
+.lista{
+	float: left;
+	margin-left: 50px;
+	padding: 2px;
+	width: 15%;
+	/*background-color: red;*/
+	font-size: 0.4em;
+	 font-family: Candara;
+	color: #000080;
+	
+	}
+
+
+.lista2{
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	width: 15%;
+	/*background-color: blue;*/
+	font-size: 0.4em;
+	font-family: Candara;
+	color: #000080;
+	
+}
+/*estilo aviso legal*/
+
+.aviso{
+	text-align: left;
+	}
+	
+.enlaces_pie{
+	float: left;
+}
+/*icono flecha de subir para arriba*/
+.flecha{
+	float: right;
+	margin-top: -600px;
+	margin-right: -900px;
+	width: 5%;
+}
+
+	
+	
+
+
+
+
+
+
+ 

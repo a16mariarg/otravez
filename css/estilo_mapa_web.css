@@ -1,0 +1,27 @@
+.estilo_titulo{
+	text-align: center;
+	font-family: Candara;
+	font-size: 2em;
+	background-color: #ADADAD;
+	color: #000000;
+}
+
+.estilos_lista{
+	text-align: left;
+	margin-left: 40px;
+	font-family: Candara;
+	font-size: 0.4em;
+}
+
+p.miga_pan{
+	font-family: Candara;
+	color: #477147;
+	font-size: 2em;
+	
+}
+
+p>a{
+	text-decoration: none;
+	color: #477147;
+	
+}

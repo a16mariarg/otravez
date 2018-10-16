@@ -1,0 +1,39 @@
+/*estilos propios de la página transcripción.html*/
+h1{
+	text-align: center;
+	font-family: Candara;
+	font-size: 4em;
+	background-color: #ADADAD;
+	
+}
+
+h2{
+	text-align: left;
+	font-family: Candara;
+	font-size: 3em;
+	color: #00458A;
+	font-weight: bold;
+	
+}
+
+p{
+	font-family: Roboto;
+	font-size: 2em;
+	color: #00458A;
+	
+	
+}
+/*estilos de la clase miga_pan*/
+p.miga_pan{
+	font-family: Candara;
+	color: #477147;
+	font-size: 2em;
+	
+}
+
+
+p>a{
+	text-decoration: none;/*enlaces sin subrayadado*/
+	color: #477147;
+	
+}

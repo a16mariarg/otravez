@@ -1,0 +1,69 @@
+/*estilos propios de la página formulario.html*/
+.estilo_titulo{
+	text-align: center;
+	font-family: Candara;
+	font-size: 2em;
+	background-color: grey;
+}
+#formulario{
+	background-color: #61D1D1;
+	width: 100%;
+	color: #0F1F0F;
+}
+
+/*estilos de los input*/
+input[type=text], input[type=email], input[type=tel]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+/*cuando el usuario hace clic en el espacio input para escribir los datos para indicar que 
+hay foco se cambia el color de fondo*/
+input[type=text]:focus, input[type=email]:focus,input[type=tel]:focus{
+    background-color: lightblue;
+}
+/*estilos del textarea*/
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+/*estilos select*/
+#curso{
+	width: 50%;
+	height: 100px;
+}
+
+label{
+		font-size: 2em;	
+}
+
+legend{
+	font-size:1.8em;
+	font-weight: bold;
+}
+
+/*estilos del párrafo que contiene la clase miga de pan*/
+p.miga_pan{
+	font-family: Candara;
+	color: #477147;
+	font-size: 2em;
+	
+}
+
+p>a{
+	text-decoration: none;
+	color: #477147;
+	
+}
